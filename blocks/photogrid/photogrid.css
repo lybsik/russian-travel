@@ -1,34 +1,35 @@
 .photogrid {
-    width: 1184px;
-    margin: 92px auto;
-    font-family: 'Inter', sans-serif;
-    background-color: #2A2C2F;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 16px;
+  max-width: 1184px;
+  width: calc(100% - 2 * 48px);
+  margin: 0 auto 92px auto;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #2a2c2f;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
 }
 @media screen and (max-width: 1024px) {
   .photogrid {
-    margin: 92px 48px;
-    max-width: 928px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (max-width: 768px) {
   .photogrid {
-    margin: 88px 24px;
-    max-width: 720px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+      margin-bottom: 88px;
+      max-width: 720px;
+      width: calc(100% - 2 * 24px);
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
   }
 }
 @media screen and (max-width: 320px) {
   .photogrid {
-    margin: 64px 16px;
-    max-width: 288px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+      margin-bottom: 64px;
+      max-width: 288px;
+      width: calc(100% - 2 * 16px);
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(12, 1fr);
   }
 }

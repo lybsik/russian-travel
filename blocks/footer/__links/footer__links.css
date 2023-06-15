@@ -8,16 +8,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .footer__links {
-    max-width: 158px;
-    margin: 0;
-    display: inline-flex;
-    flex-wrap: wrap;
-    font-size: 24px;
-    line-height: 24px;
+      max-width: 158px;
+      margin: 0;
+      display: inline-flex;
+      flex-wrap: wrap;
+      font-size: 24px;
+      line-height: 24px;
   }
 }

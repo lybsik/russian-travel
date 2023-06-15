@@ -3,32 +3,33 @@
   margin: 0;
   margin-bottom: 26px;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 29px;
-  color:#FFF;
+  color: #fff;
 }
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    max-width: 456px;
+      max-width: 456px;
   }
 }
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: 352px;
-    font-size: 16px;
-    line-height: 26px;
+      max-width: 352px;
+      font-size: 16px;
+      line-height: 26px;
   }
 }
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 26px;
+      max-width: 288px;
+      margin: 0 16px;
+      font-size: 16px;
+      line-height: 26px;
   }
 }

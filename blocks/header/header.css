@@ -2,27 +2,29 @@
   margin-top: 28px;
   margin-left: 48px;
   margin-right: 48px;
+  margin-bottom: 56px;
   max-width: 1184px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1024px) {
-.header {
-  max-width: 928px;
-  margin: 28px auto 0;
+  .header {
+      max-width: 928px;
+      margin-bottom: 48px;
   }
 }
 @media screen and (max-width: 768px) {
-.header {
-  max-width: 720px;
-  margin: 28px 24px 0;
+  .header {
+      width: calc(100% - 48px);
+      margin-bottom: 48px;
   }
 }
 @media screen and (max-width: 320px) {
   .header {
-    max-width: 288px;
-    margin: 16px 16px 0;
+      width: calc(100% - 32px);
+      padding-top: 16px;
   }
 }

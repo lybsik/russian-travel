@@ -1,7 +1,9 @@
 .places {
   max-width: 984px;
+  width: calc(100% - 2 * 148px);
   margin: 0 auto;
-  background-color: #2A2C2F;
+  padding: 0;
+  background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -9,21 +11,18 @@
 }
 @media screen and (max-width: 1024px) {
   .places {
-    width: 928px;
-    margin: 0 48px;
+      width: calc(100% - 2 * 48px);
   }
 }
 @media screen and (max-width: 768px) {
   .places {
-    width: 720px;
-    margin: 0 24px;
-    gap: 73px;
+      width: (100% - 2 * 24px);
+      gap: 73px;
   }
 }
 @media screen and (max-width: 320px) {
   .places {
-    width: 320px;
-    margin: 0;
-    gap: 50px;
+      width: 100%;
+      gap: 50px;
   }
 }
