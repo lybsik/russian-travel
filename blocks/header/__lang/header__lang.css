@@ -12,7 +12,7 @@
   color: #fff;
   text-decoration: none;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .header__lang {
       font-size: 18px;
       line-height: 20px;

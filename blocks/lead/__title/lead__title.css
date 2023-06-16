@@ -11,12 +11,17 @@
   display: flex;
   color: white;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+  .lead__title {
+      font-size: 96px;
+  }
+}
+@media screen and (max-width: 760px) {
   .lead__title {
       font-size: 12vw;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .lead__title {
       max-width: 288px;
       font-size: 40px;

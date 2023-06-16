@@ -11,13 +11,13 @@
     z-index: 2;
     text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         font-size: 8vw;
         line-height: 100%;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
     .cover__title {
         max-width: 288px;
         font-size: 32px;
